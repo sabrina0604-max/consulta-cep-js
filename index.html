@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar CEP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header id="cabecalho">
+            <nav id="nav-bar">
+                <div id="logo">
+                    <i class="icon fa-solid fa-location-dot"></i>
+                    <h2 id="titulo-header">CEP <span>Fácil</span></h2>
+                </div>
+                <ul id="lista">
+                    <li id="selecionado">Inicio</li>
+                    <li>Sobre</li>
+                    <li>Como funciona</li>
+                    <li>Contato</li>
+                </ul>                
+            </nav>
+        </header>
+        <div id="conteudo">
+            <div id="lado-esquerdo">
+                <div id="foto-lateral">
+                    <img src="img/layout cep.jpeg">
+                </div>
+                <div id="escrita-foto">
+                    <h1>Encontre endereço por CEP de forma <span class="roxo">rápida</span> e <span class="roxo">fácil!</span></h1>
+                    <div id="linha-roxa"></div>
+                    <p id="descricao">
+                        Digite o CEP ao lado e descubra endereço completo, bairro, cidade e estado em segundos.
+                    </p>
+                </div>
+            </div>
+            <div id="lado-direito">
+                <main id="buscar">
+                    <div id="consultar">
+                        <div id="icone-buscar">
+                            <i class="icon-buscar fa-solid fa-location-dot"></i>
+                        </div>
+                        <div id="escrita2">
+                            <h3>Consultar CEP</h3>
+                            <p>Preencha o campo abaixo para buscar o endereço</p>
+                        </div>
+                    </div>
+                    <div id="form">
+                        <div id="input">
+                            <label for="cep">CEP</label>
+                            <input type="integer" id="cep" name="cep" placeholder="Ex: 01001-000">
+                        </div>
+                        <button id="btn-buscar">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>Buscar</span>
+                        </button>
+                    </div>
+                    <div id="resultado">
+                        <h3>
+                            <i class="fa-solid fa-grip"></i>
+                            <span>Resultado</span>
+                        </h3>
+                        
+                        <div id="container-resultado">
+                            <div class="container-topicos">
+                                <div class="linha-descricao">
+                                    <h4>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>CEP</span>
+                                    </h4>
+                                </div>
+
+                                <div class="inputs-resultado">
+                                    <p></p>
+                                </div>
+                            </div>
+
+                            <div class="separador-linhas"></div>
+
+                            <div class="container-topicos">
+                                <div class="linha-descricao">
+                                    <h4>
+                                        <i class="fa-solid fa-road"></i>
+                                        <span>Logadouro</span>
+                                    </h4>
+                                </div>
+
+                                <div class="inputs-resultado">
+                                    <p></p>
+                                </div>
+                            </div>
+
+                            <div class="separador-linhas"></div>
+
+                            <div class="container-topicos">
+                                <div class="linha-descricao">
+                                    <h4>
+                                        <i class="fa-solid fa-location-crosshairs"></i>
+                                        <span>Bairro</span>
+                                    </h4>
+                                </div>
+
+                                <div class="inputs-resultado">
+                                    <p></p>
+                                </div>
+                            </div>
+
+                            <div class="separador-linhas"></div>
+
+                            <div class="container-topicos">
+                                <div class="linha-descricao">
+                                    <h4>
+                                        <i class="fa-solid fa-city"></i>
+                                        <span>Cidade</span>
+                                    </h4>
+                                </div>
+
+                                <div class="inputs-resultado">
+                                    <p></p>
+                                </div>
+                            </div>
+
+                            <div class="separador-linhas"></div>
+
+                            <div class="container-topicos">
+                                <div class="linha-descricao">
+                                    <h4>
+                                        <i class="fa-solid fa-flag"></i>
+                                        <span>Estado</span>
+                                    </h4>
+                                </div>
+                                <div class="inputs-resultado">
+                                    <p></p>
+                                </div>
+                            </div>   
+                        </div>    
+                        <div id="container-button">
+                            <button id="btn-limpar">
+                                <i class="fa-solid fa-eraser"></i>
+                                <span>Limpar</span>
+                            </button>
+                        </div>
+                    </div>                
+                </main>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+ 
+                
+                
